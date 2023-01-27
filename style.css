@@ -12,7 +12,7 @@ html{
     scroll-behavior: smooth;
 }
 .main-container{
-    background:orangered;
+    background:url(images/bg.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -46,12 +46,16 @@ html{
     top: 10%;
 }
 
-.background-text h2{
+.background-text h1{
+    
+    font-family:Fredoka One,sans-serif;
+    
+padding: 2rem;
     color: white;
-    font-size: 30px;
+    font-size: 68px;
     position: absolute;
-    left:40%;
-    top:30%;
+    left:48%;
+    top:47%;
     transform: translate(-50%, -50%);
 
 }
@@ -77,29 +81,32 @@ html{
     color: rgba(198, 125, 237, 0.942);
 }
 
-.background-text h2 span{
+.background-text h1 span{
     color:yellow;
 }
 .background-text h3 span{
     color: rgba(166, 211, 248, 0.942);
 }
 .two .book{
-   
+   font-family:Fredoka One ,sans-serif;
     position: absolute;
-    top: 55%;
-    left: 35%;
-    padding: 1rem 3rem;
-    color: rgba(244, 235, 235, 0.973);
-    font-size: 2rem;
+    top: 67%;
+    left: 36%;
+    padding: 2rem 3rem;
+    color:black;
+    font-size:20px;
     border: 1px solid rgba(248, 241, 241, 0.921);
     border-radius: 10px;
-    background-color: rgb(237, 104, 104);
+    background-color:white;
+
 }
 .two .book:hover{
-    padding: 1.5rem 3rem;
+    padding: 2.5rem 3rem;
 border: 1px solid white;
 border-radius: 15px;
-background: rgb(237, 63, 63);
+ background:#e2f53c;
+    
+
 }
 .taxi-image{
     width: 50%;
@@ -146,22 +153,27 @@ background: rgb(237, 63, 63);
 .inner-content .booknow{
     padding: 1rem 3rem;
     color: rgba(244, 235, 235, 0.973);
-    font-size: 1.5rem;
-    border: 1px solid rgba(248, 241, 241, 0.921);
+    font-size: 2rem;
+    border: 3px solid rgba(248, 241, 241, 0.921);
+   background-color: aqua;
+   border-radius: 10px;
+   color:black;
 }
 .inner-content .booknow:hover{
 padding: 1.5rem 3rem;
 border: 1px solid white;
 border-radius: 15px;
-background: rgb(237, 63, 63);
+background:yellow;
 }
 .form-heading{
     text-align: center;
     background:#ff6a00;
     padding: 2rem 0;
+
 }
 .form-heading h1{
     color: white;
+    font-size:30px;
 }
 .contact-form{
     width: 45rem;
@@ -169,6 +181,7 @@ background: rgb(237, 63, 63);
     text-align: center;
     padding: 2rem 1rem;
     margin: 0 auto;
+    
 }
 .form-fields input{
     padding: 2rem ;
@@ -176,16 +189,22 @@ background: rgb(237, 63, 63);
     border-bottom: 1px solid black;
 }
 select{
+    
     padding: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid black;
+    background-color:white;
+  
+   
 }
+
 .contact-form a{
-    background-color:#ff6a00;
+
     width: 100%;
     display: inline-block;
     padding: 2rem 0;
     color: white;
     font-size: 1.5rem;
+    
     
 }
 input[type="submit"]{
@@ -238,8 +257,13 @@ label{
     font-size: 30px;
 }
 .tarrif-container .inner-box p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 2rem;
+}
+.tarrif-container .inner-box span{
+    color: black;
+    font-family:Fredoka One ,sans-serif ;
+    font-size: 2.5rem;
 }
 .tarrif-container .inner-box h3{
     color: black;
@@ -269,7 +293,7 @@ label{
 
 }
 .fast-booking{
-    background: url(images/web-1012468_1920.jpg);
+    background:;
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -282,7 +306,7 @@ label{
 }
 .fast-booking  h2{
     font-size: 31px;
-    color: white;
+    color: black;
     text-align: center;
 }
 .inner-fast{
@@ -304,19 +328,21 @@ label{
 }
 .inner-fast-text h1{
     font-size: 22px;
-    color: rgb(255, 165, 145);
+    color: rgb(247, 63, 21);
     padding: 2rem;
 }
 .inner-fast-text p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 2rem;
+    color: #201f1e;
 }
 .icon-fast{
-    background-color:#ff6a00;
+
     width: 50px;
     height: 40px;
     border-radius: 150px;
     text-align: center;
+    color: #201f1e;
 }
 .icon-fast span i{
     line-height: 40px;
@@ -344,6 +370,7 @@ label{
     padding: 2rem 7%;
 }
 .inner-test{
+    font-family: 'Noto Serif Ahom', sans-serif;
     flex: 1 1 45rem;
     color: white;
    background: url(images/sh2.jpg);
@@ -353,18 +380,19 @@ label{
     font-size: 3rem;
     padding: 2rem;
     color: rgb(242, 235, 235);
-    font-family: cursive;
+    font-family:'Noto Serif Ahom',sans-serif;
 }
 .clients{
     display: flex;
     align-items: center;
+    font-family:'Noto Serif Ahom',sans-serif;
 
 }
 .clients h1{
     color:white;
     margin-left: 1rem;
     font-size: 3rem;
-    font-family: cursive;
+    
 }
 .clients .tt{
     color: black;
