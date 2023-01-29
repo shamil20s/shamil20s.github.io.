@@ -155,7 +155,8 @@ border-radius: 15px;
     color: rgba(244, 235, 235, 0.973);
     font-size: 2rem;
     border: 3px solid rgba(248, 241, 241, 0.921);
-   background-color: aqua;
+    
+    background-color:#ff6a00;;
    border-radius: 10px;
    color:black;
 }
@@ -191,10 +192,19 @@ background:yellow;
 select{
     
     padding: 1rem;
-    border-bottom: 4px solid black;
+    
+
+    border-bottom: 6px solid #ff6a00 ;
     background-color:white;
+    border-radius: 20px;
   
    
+}
+input[type="datetime-local"]{
+
+    background-color: white;
+    border-radius: 20px;
+    border-top: #fa4848 5px solid;
 }
 
 .contact-form a{
@@ -347,7 +357,10 @@ label{
 .icon-fast span i{
     line-height: 40px;
     font-size: 1.5rem;
+   
 }
+
+
 
 .testimonials{
  
@@ -369,6 +382,7 @@ label{
     gap: 15px;
     padding: 2rem 7%;
 }
+
 .inner-test{
     font-family: 'Noto Serif Ahom', sans-serif;
     flex: 1 1 45rem;
